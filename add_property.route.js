@@ -10,6 +10,8 @@ router.get('/:reportIndex', function getAll(req, res) {
 //  var url = require('url');
 //  var pathname = url.parse(req.url).pathname;
 //  var indexParameter = pathname.split("/"); 
+//  var indexParameter = pathname.split("/"); 
+
 	var reportIndex = request.params.reportIndex
 	console.log(reportIndex)
 	reportIndex = parseInt( reportIndex, 10 )
