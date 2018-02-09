@@ -12,6 +12,8 @@ router.get('/:reportIndex', function getAll(req, res) {
 //  var indexParameter = pathname.split("/"); 
 //  var indexParameter = pathname.split("/"); 
 
+
+//
 	var reportIndex = request.params.reportIndex
 	console.log(reportIndex)
 	reportIndex = parseInt( reportIndex, 10 )
